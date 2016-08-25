@@ -1,0 +1,130 @@
+{
+  "liveVariable1" : {
+    "_id" : "wm-liveVariable1-wm.LiveVariable-1472105847804",
+    "name" : "liveVariable1",
+    "owner" : "Page",
+    "category" : "wm.LiveVariable",
+    "dataBinding" : [ ],
+    "operation" : "read",
+    "dataSet" : [ ],
+    "type" : "User",
+    "isList" : false,
+    "saveInPhonegap" : false,
+    "maxResults" : 20,
+    "designMaxResults" : 10,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : true,
+    "autoUpdate" : true,
+    "transformationRequired" : false,
+    "liveSource" : "hrdb",
+    "ignoreCase" : false,
+    "matchMode" : "start",
+    "propertiesMap" : {
+      "columns" : [ {
+        "fieldName" : "userId",
+        "type" : "integer",
+        "fullyQualifiedType" : "integer",
+        "columnName" : "USER_ID",
+        "isPrimaryKey" : true,
+        "notNull" : true,
+        "length" : 255,
+        "precision" : 10,
+        "generator" : "identity",
+        "isRelated" : false,
+        "scale" : 0
+      }, {
+        "fieldName" : "username",
+        "type" : "string",
+        "fullyQualifiedType" : "string",
+        "columnName" : "USERNAME",
+        "isPrimaryKey" : false,
+        "notNull" : false,
+        "length" : 20,
+        "precision" : 19,
+        "generator" : "assigned",
+        "isRelated" : false,
+        "scale" : 0
+      }, {
+        "fieldName" : "password",
+        "type" : "string",
+        "fullyQualifiedType" : "string",
+        "columnName" : "PASSWORD",
+        "isPrimaryKey" : false,
+        "notNull" : false,
+        "length" : 20,
+        "precision" : 19,
+        "generator" : "assigned",
+        "isRelated" : false,
+        "scale" : 0
+      }, {
+        "fieldName" : "role",
+        "type" : "string",
+        "fullyQualifiedType" : "string",
+        "columnName" : "ROLE",
+        "isPrimaryKey" : false,
+        "notNull" : false,
+        "length" : 20,
+        "precision" : 19,
+        "generator" : "assigned",
+        "isRelated" : false,
+        "scale" : 0
+      }, {
+        "fieldName" : "tenantId",
+        "type" : "integer",
+        "fullyQualifiedType" : "integer",
+        "columnName" : "TENANT_ID",
+        "isPrimaryKey" : false,
+        "notNull" : false,
+        "length" : 255,
+        "precision" : 10,
+        "generator" : "assigned",
+        "isRelated" : false,
+        "scale" : 0
+      } ],
+      "entityName" : "User",
+      "fullyQualifiedName" : "com.hrdb.User",
+      "tableType" : "TABLE",
+      "primaryFields" : [ "userId" ]
+    },
+    "bindCount" : 2,
+    "tableName" : "USER",
+    "tableType" : "TABLE",
+    "properties" : [ ],
+    "relatedTables" : [ ],
+    "filterFields" : { },
+    "package" : "com.hrdb.User"
+  },
+  "notificationVariable1" : {
+    "_id" : "wm-notificationVariable1-wm.NotificationVariable-1472105905619",
+    "name" : "notificationVariable1",
+    "owner" : "Page",
+    "category" : "wm.NotificationVariable",
+    "dataBinding" : [ {
+      "target" : "text",
+      "value" : "success",
+      "type" : "string"
+    }, {
+      "target" : "title",
+      "value" : "success",
+      "type" : "string"
+    }, {
+      "target" : "alerttype",
+      "value" : "success",
+      "type" : "list"
+    } ],
+    "operation" : "alert"
+  },
+  "staticVariable2" : {
+    "_id" : "wm-staticVariable2-wm.Variable-1472109263710",
+    "name" : "staticVariable2",
+    "owner" : "Page",
+    "category" : "wm.Variable",
+    "dataBinding" : [ ],
+    "dataSet" : {
+      "dataValue" : ""
+    },
+    "type" : "string",
+    "isList" : false,
+    "saveInPhonegap" : false
+  }
+}
